@@ -36,7 +36,6 @@ public class Search implements PersonSearch {
 
         for (int i = 0; i < peopleList.size(); i++) { // c0 * n
             Person person = peopleList.get(i);  // c1 * (n-1)
-
             if (person.getWeight() != currentWeight) { //c2 * (n-1)
                 if (currentWeight == -1) { // c3
                     currentWeight = person.getWeight(); // c4
