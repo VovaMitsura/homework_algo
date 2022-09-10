@@ -83,5 +83,4 @@ public class Demo {
             new Person(180, 80, 420), new Person(172, 70, 41), new Person(190, 60, 382),
             new Person(180, 80, 430), new Person(173, 70, 42), new Person(190, 60, 392),
             new Person(180, 80, 440), new Person(143, 70, 43), new Person(190, 60, 402));
-
 }
